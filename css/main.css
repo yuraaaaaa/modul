@@ -695,7 +695,12 @@
     text-align: start;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .quotation {
+    position: relative;
+    transform: translate(100px, 232px);
   }
   .quotation-phone .quotation__title {
     font-size: 45px;
